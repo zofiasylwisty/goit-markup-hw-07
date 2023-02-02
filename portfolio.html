@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfolio" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="border-bottom">
+      <div class="top container">
+        <a class="logo" href="./index.html">
+          <span class="blue-text">Web</span
+          ><span class="black-text">Studio</span>
+        </a>
+        <nav>
+          <ul class="menu">
+            <li class="menu-component">
+              <a class="link" href="./index.html">Agencja</a>
+            </li>
+            <li class="menu-component portfolio">
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-component">
+              <a class="link" href="./kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li class="contact-address">
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="icons-header" height="12" width="16">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-address">
+            <a class="contact" href="tel:+48111111111">
+              <svg class="icons-header" height="16" width="10">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <ul class="filters-list">
+        <li class="filter-element">
+          <button class="filter" type="button">Wszystkie</button>
+        </li>
+        <li class="filter-element">
+          <button class="filter" type="button">Strony</button>
+        </li>
+        <li class="filter-element">
+          <button class="filter" type="button">Aplikacje</button>
+        </li>
+        <li class="filter-element">
+          <button class="filter" type="button">Dizajn</button>
+        </li>
+        <li class="filter-element">
+          <button class="filter" type="button">Marketing</button>
+        </li>
+      </ul>
+
+      <div class="grid-container">
+        <ul class="card-set">
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of a laptop"
+                  width="370"
+                  height="294"
+                  src="images/technocrack.jpg"
+                />
+                <div class="card-label">
+                  Technocrack jest popularną platformą wykorzystywaną do
+                  rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                  platformę do celów szpiegowskich i ataków na niezabezpieczone
+                  serwery konkurencji
+                </div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Technocrack
+                  <p class="definition">Strona internetowa</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of basketball players"
+                  width="370"
+                  height="294"
+                  src="images/neworlean.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Grafika New Orlean vs Golden Star
+                  <p class="definition">Dizajn</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of an app logo"
+                  width="370"
+                  height="294"
+                  src="images/seafood.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Restauracja Seafood
+                  <p class="definition">Aplikacja</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of headphones"
+                  width="370"
+                  height="294"
+                  src="images/projektprime.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Projekt Prime
+                  <p class="definition">Marketing</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of boxes"
+                  width="370"
+                  height="294"
+                  src="images/boxes.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Projekt Boxes
+                  <p class="definition">Aplikacja</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of a screen"
+                  width="370"
+                  height="294"
+                  src="images/screen.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Inspiration has no borders
+                  <p class="definition">Strona internetowa</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of a magazine"
+                  width="370"
+                  height="294"
+                  src="images/magazine.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Magazyn Limited Edition
+                  <p class="definition">Dizajn</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of a label"
+                  width="370"
+                  height="294"
+                  src="images/label.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Projekt LAB
+                  <p class="definition">Marketing</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+          <li class="card-item">
+            <figure class="cards-shadow">
+              <div class="cards-container">
+                <img
+                  alt="picture of a laptop and hands"
+                  width="370"
+                  height="294"
+                  src="images/business.jpg"
+                />
+                <div class="card-label"></div>
+              </div>
+              <div class="test">
+                <figcaption class="term">
+                  Growing Business
+                  <p class="definition">Aplikacja</p>
+                </figcaption>
+              </div>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer-background">
+      <div class="contacts-footer-group">
+        <ul class="footer-components">
+          <li class="bottom-logo">
+            <a
+              class="logo"
+              href="https://zofiasylwisty.github.io/goit-markup-hw-04/"
+            >
+              <span class="blue-text">Web</span
+              ><span class="white-text">Studio</span>
+            </a>
+          </li>
+          <li class="addresses">
+            <address class="location">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+          </li>
+          <li class="addresses">
+            <a class="bottom-links" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="addresses">
+            <a class="bottom-links" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+        <div class="join-us-flex">
+          <h2 class="join-us">DOŁĄCZ DO NAS</h2>
+          <ul class="footer-icons-list">
+            <li class="icon-element-footer">
+              <div class="footer-icon-circle">
+                <a href="#" class="icon-footer"
+                  ><svg class="footer-social-icons" height="20" width="20">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="icon-element-footer">
+              <div class="footer-icon-circle">
+                <a href="#" class="icon-footer"
+                  ><svg class="footer-social-icons" height="20" width="20">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="icon-element-footer">
+              <div class="footer-icon-circle">
+                <a href="#" class="icon-footer"
+                  ><svg class="footer-social-icons" height="20" width="20">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="icon-element-footer">
+              <div class="footer-icon-circle">
+                <a href="#" class="icon-footer"
+                  ><svg class="footer-social-icons" height="20" width="20">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter-position">
+          <form name="newsletter">
+            <label>
+              <h3 class="newsletter-sign-up">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+
+              <input
+                class="footer-input"
+                name="email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="submit-newsletter" type="submit">
+              <span class="sign-up-button">Zapisz się</span>
+              <svg class="send" height="24px" width="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
