@@ -20,55 +20,47 @@
     />
   </head>
   <body>
-    <section>
-      <div class="container">
-        <header class="header__underline">
-          <div class="header">
-            <a class="logo header__logo" href="./index.html">
-              <span class="logo__blue">Web</span
-              ><span class="logo__black">Studio</span>
-            </a>
-            <nav>
-              <ul class="navigation">
-                <li class="navigation__item agency">
-                  <a
-                    class="navigation__link"
-                    href="./https://zofiasylwisty.github.io/goit-markup-hw-05/"
-                    >Agencja</a
-                  >
-                </li>
-                <li class="navigation__item">
-                  <a class="navigation__link" href="./portfolio.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="navigation__item">
-                  <a class="navigation__link" href="./kontakt">Kontakt</a>
-                </li>
-              </ul>
-            </nav>
-            <ul class="contacts">
-              <li class="contacts__address">
-                <a class="contacts__link" href="mailto:info@devstudio.com">
-                  <svg class="contacts__icon" height="12" width="16">
-                    <use href="./images/icons.svg#icon-envelope"></use>
-                  </svg>
-                  info@devstudio.com</a
-                >
-              </li>
-              <li class="contacts__address">
-                <a class="contacts__link" href="tel:+48111111111">
-                  <svg class="contacts__icon" height="16" width="10">
-                    <use href="./images/icons.svg#icon-smartphone"></use>
-                  </svg>
-                  +48 111 111 111</a
-                >
-              </li>
-            </ul>
-          </div>
-        </header>
-      </div>
-    </section>
+    <header class="header header-underline">
+      <a class="logo" href="./index.html">
+        <span class="logo__blue">Web</span
+        ><span class="logo__black">Studio</span>
+      </a>
+      <nav>
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a
+              class="navigation__link"
+              href="./https://zofiasylwisty.github.io/goit-markup-hw-05/"
+              >Agencja</a
+            >
+          </li>
+          <li class="navigation__item portfolio">
+            <a class="navigation__link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="./kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts">
+        <li class="contacts__address">
+          <a class="contacts__link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" height="12" width="16">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+        </li>
+        <li class="contacts__address">
+          <a class="contacts__link" href="tel:+48111111111">
+            <svg class="contacts__icon" height="16" width="10">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
+        </li>
+      </ul>
+    </header>
     <main>
       <ul class="filters">
         <li class="filters__item">
@@ -88,8 +80,8 @@
         </li>
       </ul>
 
-      <div class="grid__container">
-        <ul class="cards__list">
+      <div class="grid">
+        <ul class="cards">
           <li class="cards__item">
             <figure class="cards__shadow">
               <div class="cards__container">
@@ -336,7 +328,7 @@
             </li>
           </ul>
         </div>
-        <div class="newsletter__container">
+        <div class="newsletter-container">
           <form name="newsletter">
             <label>
               <h3 class="newsletter__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>

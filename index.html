@@ -20,55 +20,47 @@
     />
   </head>
   <body>
-    <section>
-      <div class="container">
-        <header>
-          <div class="header">
-            <a class="logo header__logo" href="./index.html">
-              <span class="logo__blue">Web</span
-              ><span class="logo__black">Studio</span>
-            </a>
-            <nav>
-              <ul class="navigation">
-                <li class="navigation__item agency">
-                  <a
-                    class="navigation__link"
-                    href="./https://zofiasylwisty.github.io/goit-markup-hw-05/"
-                    >Agencja</a
-                  >
-                </li>
-                <li class="navigation__item">
-                  <a class="navigation__link" href="./portfolio.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="navigation__item">
-                  <a class="navigation__link" href="./kontakt">Kontakt</a>
-                </li>
-              </ul>
-            </nav>
-            <ul class="contacts">
-              <li class="contacts__address">
-                <a class="contacts__link" href="mailto:info@devstudio.com">
-                  <svg class="contacts__icon" height="12" width="16">
-                    <use href="./images/icons.svg#icon-envelope"></use>
-                  </svg>
-                  info@devstudio.com</a
-                >
-              </li>
-              <li class="contacts__address">
-                <a class="contacts__link" href="tel:+48111111111">
-                  <svg class="contacts__icon" height="16" width="10">
-                    <use href="./images/icons.svg#icon-smartphone"></use>
-                  </svg>
-                  +48 111 111 111</a
-                >
-              </li>
-            </ul>
-          </div>
-        </header>
-      </div>
-    </section>
+    <header class="header">
+      <a class="logo" href="./index.html">
+        <span class="logo__blue">Web</span
+        ><span class="logo__black">Studio</span>
+      </a>
+      <nav>
+        <ul class="navigation">
+          <li class="navigation__item agency">
+            <a
+              class="navigation__link"
+              href="./https://zofiasylwisty.github.io/goit-markup-hw-05/"
+              >Agencja</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="./kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts">
+        <li class="contacts__address">
+          <a class="contacts__link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" height="12" width="16">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+        </li>
+        <li class="contacts__address">
+          <a class="contacts__link" href="tel:+48111111111">
+            <svg class="contacts__icon" height="16" width="10">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
+        </li>
+      </ul>
+    </header>
     <main class="main">
       <div class="main__photo">
         <h1 class="main__headline">
@@ -78,7 +70,7 @@
           Zamów usługę
         </button>
       </div>
-      <div class="main__backdrop is-hidden" data-modal>
+      <div class="main-backdrop is-hidden" data-modal>
         <div class="main__overlay">
           <h2 class="form__header">Zostaw swoje dane w formularzu poniżej</h2>
           <form class="form">
@@ -144,8 +136,8 @@
       </div>
       <section class="section">
         <div class="container">
-          <ul class="latin__list">
-            <li class="latin__header">
+          <ul class="latin">
+            <li class="latin__position">
               <svg class="latin__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
@@ -156,7 +148,7 @@
                 non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="latin__header">
+            <li class="latin__position">
               <svg class="latin__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
@@ -167,7 +159,7 @@
                 non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="latin__header">
+            <li class="latin__position">
               <svg class="latin__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
@@ -178,7 +170,7 @@
                 non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="latin__header">
+            <li class="latin_position">
               <svg class="latin__icon" width="270" height="120">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
@@ -235,7 +227,7 @@
           </ul>
         </div>
       </section>
-      <section class="section team__section">
+      <section class="section team-section">
         <div class="container">
           <h2 class="section__header">Nasz zespół</h2>
           <ul class="team">
@@ -247,7 +239,7 @@
                   height="260"
                   src="images/productdesign.jpg"
                 />
-                <figcaption class="member__text">
+                <figcaption class="member">
                   <span class="member__name">John Doe</span>
                   <span class="member__position">Product Designer</span>
                   <ul class="socials">
@@ -299,7 +291,7 @@
                   height="260"
                   src="images/frontend.jpg"
                 />
-                <figcaption class="member__text">
+                <figcaption class="member">
                   <span class="member__name">John Doe</span>
                   <span class="member__position">Frontend Developer</span>
                   <ul class="socials">
@@ -351,7 +343,7 @@
                   height="260"
                   src="images/marketing.jpg"
                 />
-                <figcaption class="member__text">
+                <figcaption class="member">
                   <span class="member__name">John Doe</span>
                   <span class="member__position">Marketing</span>
                   <ul class="socials">
@@ -403,7 +395,7 @@
                   height="260"
                   src="images/uidesigner.jpg"
                 />
-                <figcaption class="member__text">
+                <figcaption class="member">
                   <span class="member__name">John Doe</span>
                   <span class="member__position">UI Designer</span>
                   <ul class="socials">
@@ -452,45 +444,45 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="clients__header">Nasi klienci</h2>
-          <ul class="clients__list">
+          <h2 class="section__header">Nasi klienci</h2>
+          <ul class="clients">
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
             <li class="clients__item">
-              <a href="#" class="clients-link">
+              <a href="#">
                 <svg class="clients__icon" height="92" width="170">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
@@ -567,7 +559,7 @@
             </li>
           </ul>
         </div>
-        <div class="newsletter__container">
+        <div class="newsletter-container">
           <form name="newsletter">
             <label>
               <h3 class="newsletter__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>
