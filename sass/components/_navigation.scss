@@ -1,0 +1,33 @@
+@import "utils/vars";
+.navigation {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 32px 371px 0px 93px;
+  list-style: none;
+
+  & > .navigation__item:not(:last-child) {
+    margin-right: 46px;
+  }
+  &__link:hover,
+  &__link:focus,
+  &__link:active {
+    color: $seventhColor;
+  }
+  &__link {
+    @extend %headerText;
+  }
+  .agency::after {
+    content: "";
+    background-color: $seventhColor;
+    border-radius: 2px;
+    height: 4px;
+    width: 53px;
+    margin: 0;
+    padding: 0;
+    margin-top: 28px;
+    display: block;
+  }
+  .portfolio::after {
+    @extend .agency;
+  }
+}

@@ -1,0 +1,29 @@
+@import "utils/vars";
+.latin {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  & > &__position:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__icon {
+    background-color: $secondaryColor;
+    width: 270;
+    height: 120;
+    border-radius: 4px;
+    padding: 25px;
+  }
+  &__title {
+    @extend .latinText;
+    font-weight: 700;
+    line-height: 1.14;
+    color: $fifthColor;
+    margin-bottom: 10px;
+    .latin__text {
+      font-family: "Roboto";
+      font-size: 14px;
+      line-height: 1.71;
+      color: $thirdColor;
+    }
+  }
+}

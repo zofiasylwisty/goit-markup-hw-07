@@ -1,0 +1,27 @@
+@import "utils/vars";
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin: 32px 0px;
+  list-style: none;
+  & > .contacts__address:not(:last-child) {
+    margin-right: 50px;
+  }
+  &__link:hover,
+  &__link:focus,
+  &__link:active {
+    color: $seventhColor;
+  }
+  &__link:hover > svg {
+    fill: $seventhColor;
+  }
+  &__link {
+    @extend %headerText;
+    color: $thirdColor;
+  }
+  &__icon {
+    fill: $disabledColor;
+    margin-right: 10px;
+  }
+}
