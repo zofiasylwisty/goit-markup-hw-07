@@ -1,11 +1,9 @@
-@import "utils/vars";
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   &__photo {
-    background-color: var(--fourth-color);
+    background-color: $fourthColor;
     width: 1600px;
     height: 600px;
     display: flex;
@@ -35,12 +33,12 @@
     margin: 200px 452px 30px;
   }
   &__button {
-    color: var(--sixth-color);
-    background-color: var(--second-color);
+    color: $sixthColor;
+    background-color: $secondaryColor;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    font-family: "Roboto";
+    font-family: $mainFontFamily;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.8;
@@ -55,8 +53,8 @@
   &__button:hover,
   &__button:focus,
   &__button:active {
-    color: var(--first-color);
-    background-color: var(--seventh-color);
+    color: $primaryColor;
+    background-color: $seventhColor;
     text-align: center;
   }
   .main-backdrop {
@@ -84,7 +82,7 @@
     transform: translate(-50%, -50%) scale(1.2);
   }
   &__overlay {
-    background: var(--first-color);
+    background: $primaryColor;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -103,7 +101,7 @@
   }
   .form-header {
     font-family: "Roboto";
-    color: var(--sixth-color);
+    color: $sixthColor;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.15em;

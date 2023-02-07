@@ -25,8 +25,8 @@
         <span class="logo__blue">Web</span
         ><span class="logo__black">Studio</span>
       </a>
-      <nav>
-        <ul class="navigation">
+      <nav class="navigation">
+        <ul class="navigation__list">
           <li class="navigation__item agency">
             <a
               class="navigation__link"
@@ -107,14 +107,13 @@
             </label>
             <label class="form__items">
               <p class="form__label">Komentarz</p>
-              <div class="form__input">
-                <textarea
-                  name="comment"
-                  rows="8"
-                  class="form__comment message"
-                  placeholder="Wprowadź tekst"
-                ></textarea>
-              </div>
+
+              <textarea
+                name="comment"
+                rows="8"
+                class="comment-area"
+                placeholder="Wprowadź tekst"
+              ></textarea>
             </label>
             <label class="checkbox__label">
               <input type="checkbox" name="checkbox" />
@@ -232,7 +231,7 @@
           <h2 class="section__header">Nasz zespół</h2>
           <ul class="team">
             <li class="team__photo">
-              <figure>
+              <figure class="no-margin">
                 <img
                   alt="picture of a product designer"
                   width="270"
@@ -284,7 +283,7 @@
               </figure>
             </li>
             <li class="team__photo">
-              <figure>
+              <figure class="no-margin">
                 <img
                   alt="picture of a frontend developer"
                   width="270"
@@ -336,7 +335,7 @@
               </figure>
             </li>
             <li class="team__photo">
-              <figure>
+              <figure class="no-margin">
                 <img
                   alt="picture of a marketing specialist"
                   width="270"
@@ -388,7 +387,7 @@
               </figure>
             </li>
             <li class="team__photo">
-              <figure>
+              <figur class="no-margin">
                 <img
                   alt="picture of a UI designer"
                   width="270"
@@ -560,18 +559,18 @@
           </ul>
         </div>
         <div class="newsletter-container">
-          <form name="newsletter">
-            <label>
-              <h3 class="newsletter__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+          <form name="newsletter" class="notification">
+            <label >
+              <h3 class="notification__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>
 
               <input
-                class="newsletter__input"
+                class="notification__input"
                 name="email"
                 type="email"
                 placeholder="E-mail"
               />
             </label>
-            <button class="newsletter__button" type="submit">
+            <button class="newsletter" type="submit">
               <span class="newsletter__text">Zapisz się</span>
               <svg class="newsletter__icon" height="24px" width="24px">
                 <use href="./images/icons.svg#icon-send"></use>
